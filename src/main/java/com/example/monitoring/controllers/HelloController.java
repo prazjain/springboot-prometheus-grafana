@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    private List<String> botNames = Arrays.asList("XIB", "Helix", "BigBot", "Realtime");
+    private List<String> botNames = Arrays.asList("Bot1", "Bot2", "Bot3", "Bot4");
 
     @Autowired
     MeterRegistry meterRegistry;
